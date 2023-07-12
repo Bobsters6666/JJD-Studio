@@ -1,0 +1,38 @@
+.navbar {
+  width: 1120px;
+  margin: 15px auto;
+}
+
+.navbar>div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+
+.navbar ul li a {
+  color: var(--white);
+  text-decoration: none;
+  font-family: var(--ff-heading);
+  font-size: 18px;
+  transition: 0.2s ease-in-out;
+}
+
+.navbar ul li a:hover {
+  cursor: pointer;
+  color: var(--purple)
+}
+
+.logo {
+  transition: 0.2s ease-in;
+}
+
+.logo:hover {
+  cursor: pointer;
+  opacity: 0.88;
+}
