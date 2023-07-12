@@ -1,11 +1,17 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+:root {
+  --ff-heading: 'Outfit', sans-serif;
+  --ff-body: 'Roboto', sans-serif;
+
+  --white: #fff;
+  --black: #000;
+  --darkblue: hsl(227, 91%, 13%);
+  --lightgreen: hsl(158, 77%, 83%);
+  --violet: hsl(239, 67%, 55%);
+  --purple: hsl(274, 100%, 72%);
+  --pink: hsl(281, 94%, 80%);
+
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
