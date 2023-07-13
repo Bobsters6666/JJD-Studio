@@ -2,7 +2,7 @@
   margin-top: 150px;
   height: 350px;
   background-color: var(--violet);
-  width: 100vw !important;
+  width: 100vw;
   display: grid;
   place-content: center;
   border-top-left-radius: 30px;
