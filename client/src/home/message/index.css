@@ -1,0 +1,24 @@
+.message {
+  background: linear-gradient(115deg, var(--violet), var(--lightgreen));
+  padding: 42px 0;
+}
+
+.message>div {
+  width: 520px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.message>div>button {
+  background-color: var(--darkestblue);
+  border: 2px solid var(--darkestblue);
+  padding: 22px 35px;
+  transition: 0.42s ease-in-out;
+  box-shadow: 2px 2px 2px 2px rgba(232, 242, 232, 0.4)
+}
+
+.message>div>button:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: var(--darkestblue);
+}
