@@ -1,4 +1,3 @@
-import React from 'react'
 import './index.css'
 import arrowDown from '../../assets/icons/arrow-down.svg'
 
