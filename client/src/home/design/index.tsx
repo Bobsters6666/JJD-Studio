@@ -2,7 +2,7 @@ import './index.css'
 
 const Design = () => {
   return (
-    <div className="design">
+    <div className="design desktop">
       <div>
         <h2>Our Design Procedure</h2>
         <div className="boxes-container">

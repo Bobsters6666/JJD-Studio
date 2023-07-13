@@ -4,7 +4,7 @@ import Rocket from '../../assets/Saly-43.png'
 
 const Intro = () => {
   return (
-    <div className='intro' id="intro">
+    <div className='intro desktop' id="intro">
       <div>
         <img src={Rocket} alt="" className="src" draggable="false" />
         <div className='intro-rightside'>
