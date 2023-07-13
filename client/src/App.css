@@ -77,3 +77,11 @@ button:hover {
   border: 2px solid var(--purple);
   cursor: pointer;
 }
+
+.ellipse-1 {
+  position: absolute;
+  width: 500px;
+  height: 400px;
+  background-color: var(--pink);
+  filter: blur(200px)
+}

@@ -13,6 +13,9 @@ const Intro = () => {
           <button>reach out</button>
         </div>
       </div>
+
+      {/*  */}
+      <div className='ellipse-1 intro-ellipse-1'></div>
     </div>
   )
 }
