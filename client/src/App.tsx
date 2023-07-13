@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Navbar from './navbar'
 import Hero from './home/hero'
 import Intro from './home/intro'
+import Design from './home/design'
+import Release from './home/release'
+import Message from './home/message'
 
 function App() {
   return (
@@ -14,6 +17,9 @@ function App() {
           <>
             <Hero />
             <Intro />
+            <Design />
+            <Release />
+            <Message />
           </>} />
         </Routes>
       </Router> 
