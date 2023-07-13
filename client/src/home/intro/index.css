@@ -1,0 +1,22 @@
+.intro {
+  margin-bottom: 200px;
+}
+
+.intro>div {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.intro>div h2 {
+  margin-top: 0px;
+}
+
+.intro>div h4 {
+  margin-bottom: 5px;
+  opacity: 0.8;
+}
+
+.intro>div p {
+  margin-bottom: 50px;
+}

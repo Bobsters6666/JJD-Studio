@@ -1,7 +1,72 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
   background: var(--darkblue);
   color: var(--white);
+  user-select: none;
 }
 
+body>div {
+  width: 1120px;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  font-family: var(--ff-heading);
+  font-size: 85px;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px var(--purple);
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: var(--ff-heading);
+  font-weight: 700;
+  line-height: 110%;
+  font-size: 50px;
+  text-transform: capitalize;
+}
+
+h4 {
+  font-family: var(--ff-heading);
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.7px;
+}
+
+p {
+  font-family: var(--ff-body);
+  font-size: 17px;
+  line-height: 130%;
+  font-weight: 600;
+}
+
+button {
+  font-family: var(--ff-heading);
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  padding: 17px 30px;
+  background-color: var(--purple);
+  text-transform: uppercase;
+  border-radius: 30px;
+  border: 2px solid var(--white);
+  color: white;
+  transition: 0.25s ease-in-out;
+}
+
+button:hover {
+  background-color: transparent;
+  color: var(--purple);
+  border: 2px solid var(--purple);
+  cursor: pointer;
+}
