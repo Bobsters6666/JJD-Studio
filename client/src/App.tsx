@@ -6,6 +6,7 @@ import Intro from './home/intro'
 import Design from './home/design'
 import Release from './home/release'
 import Message from './home/message'
+import Footer from './footer'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Message />
           </>} />
         </Routes>
+        <Footer />
       </Router> 
     </>
   )

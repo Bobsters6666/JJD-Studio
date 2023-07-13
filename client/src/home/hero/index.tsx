@@ -4,7 +4,7 @@ import arrowDown from '../../assets/icons/arrow-down.svg'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div className='hero desktop'>
       <div>
         <h1 className='h1'>JJD STUDIO</h1>
         <h4>the best gaming studio in town, <br />lorem ipsum dorjt ipsum</h4>

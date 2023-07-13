@@ -10,7 +10,7 @@ body {
   user-select: none;
 }
 
-body>div {
+.desktop {
   width: 1120px;
   margin: 0 auto;
 }
@@ -41,6 +41,13 @@ h4 {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 1.7px;
+}
+
+h5 {
+  font-family: var(--ff-heading);
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
 p {

@@ -3,7 +3,7 @@ import Meta from '../../assets/Saly-19.png'
 
 const Release = () => {
   return (
-    <div className='release' id="release">
+    <div className='release desktop' id="release">
       <h2 className='sub-heading'>What to Expect?</h2>
       <div>
         <div className='releases-leftside'>
