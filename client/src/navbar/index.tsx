@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import './index.css'
 import Logo from '../assets/logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHamburger } from '@fortawesome/free-solid-svg-icons'
+import { faHamburger, faTimes } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
   const navRef = useRef<HTMLUListElement>(null)
@@ -22,6 +22,7 @@ const Navbar = () => {
           <li><a href="#">About Us</a></li>
           <li><a href="#">Releases</a></li>
           <li><a href="#">Reach Out</a></li>
+          <div className='nav-x' onClick={showNavbar}><FontAwesomeIcon icon={faTimes} /> </div>
         </ul> 
         <div className='menu-button' onClick={showNavbar}>
           <FontAwesomeIcon icon={faHamburger} />
