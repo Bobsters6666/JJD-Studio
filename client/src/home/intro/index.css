@@ -1,5 +1,6 @@
 .intro {
   padding: 300px 0;
+  position: relative;
 }
 
 .intro>div {
@@ -19,4 +20,10 @@
 
 .intro>div p {
   margin-bottom: 50px;
+}
+
+.intro-ellipse-1 {
+  background-color: var(--violet);
+  left: -26%;
+  bottom: 10%;
 }

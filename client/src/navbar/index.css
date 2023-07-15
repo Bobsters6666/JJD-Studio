@@ -1,6 +1,7 @@
 .navbar {
-  width: 1120px;
-  margin: 15px auto;
+  max-width: 1120px;
+  margin: 15 auto;
+  padding: 0 30px;
 }
 
 .navbar>div {
@@ -35,4 +36,38 @@
 .logo:hover {
   cursor: pointer;
   opacity: 0.88;
+}
+
+.menu-button {
+  display: none;
+}
+
+@media (max-width: 1160px) {
+  .navbar {
+    padding: 0 50px;
+  }
+
+ .navbar ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: var(--violet);
+    transition: 1s;
+    transform: translateY(-100vh)
+  }
+
+  .menu-button {
+    display: block;
+    font-size: 35px;
+  }
+
+  .responsive-nav {
+  }
 }

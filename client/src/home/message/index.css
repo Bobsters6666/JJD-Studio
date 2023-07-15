@@ -22,3 +22,7 @@
   border: 2px solid white;
   color: var(--darkestblue);
 }
+
+.message-ellipse-1 {
+  left: -20%;
+}
