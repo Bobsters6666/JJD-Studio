@@ -8,6 +8,7 @@ import Design from './home/design'
 import Release from './home/release'
 import Message from './home/message'
 import Footer from './footer'
+import About from './about'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Release />
             <Message />
           </>} />
+          <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
       </Router> 

@@ -1,7 +1,8 @@
 .navbar {
   max-width: 1120px;
-  margin: 15 auto;
-  padding: 0 30px;
+  margin: 0 auto;
+  height: 80px;
+  padding: 15px 30px;
 }
 
 .navbar>div {
@@ -42,17 +43,22 @@
   display: none;
 }
 
+.nav-x {
+  display: none;
+  font-size: 30px;
+}
+
 @media (max-width: 1160px) {
   .navbar {
-    padding: 0 50px;
+    padding: 15px 50px;
   }
 
  .navbar ul {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 100%;
+    height: 105vh;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -60,7 +66,8 @@
     gap: 1.5rem;
     background-color: var(--violet);
     transition: 1s;
-    transform: translateY(-100vh)
+    transform: translateY(-110vh);
+    z-index: 3;
   }
 
   .menu-button {
@@ -68,6 +75,11 @@
     font-size: 35px;
   }
 
-  .responsive-nav {
+  .navbar>div .responsive-nav {
+    transform: translateY(-5vh);
+  }
+
+  .nav-x {
+    display: block;
   }
 }
