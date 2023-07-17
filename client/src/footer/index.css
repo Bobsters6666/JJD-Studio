@@ -7,6 +7,8 @@
   place-content: center;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer>div {

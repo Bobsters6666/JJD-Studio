@@ -7,7 +7,7 @@ const Footer = () => {
 
   return (
     <div className='footer'>
-      <div className='desktop'>
+      <div className='desktop container'>
         <img src={Logo} alt="" className="src" />
         <div>
           <h5>studio</h5>
